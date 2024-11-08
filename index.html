@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Hamburger</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer async></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><span>D</span>oe</a>
+        </div>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="btn-menu-login">Login</a>
+        </div>
+        <div class="btn-menu">
+            <img src="./ressource/menu-alt-2-svgrepo-com.svg" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-box">
+            <form action="#" class="login-form" id="login-box">
+                <h2>Login</h2>
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password">
+                <input type="checkbox" class="check-box"><label>Remember Me</label>
+                <button type="submit" class="submit-btn">Log in</button>
+                <p>Don't have an account? <a href="#" class="register-btn">Register</a></p>
+            </form>
+            <form action="#" class="login-form" id="register-box">
+                <h2>Register</h2>
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="email">
+                <input type="password" class="input-field" placeholder="Password">
+                <input type="checkbox" class="check-box"><label>I agree to the Terms & Condition</label>
+                <button type="submit" class="submit-btn">Register</button>
+                <p>Already have an account? <a href="#" class="login-btn">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
